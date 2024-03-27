@@ -1,0 +1,22 @@
+name: curvenote
+on:
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+  pull-requests: write
+jobs:
+  publish:
+    uses: curvenote/actions/.github/workflows/publish.yml@v1
+    with:
+      monorepo: true
+      id-pattern-regex: '^morganton-2024-(?:[a-zA-Z0-9-_]{3,15})$'
+      enforce-single-folder: true
+      preview-label: paper
+      submit-label: false
+      venue: ncssm-mor
+      kind: Original Research Paper
+      path: papers/*
+    secrets:
+      CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
+      GITHUB: ${{ secrets.GITHUB_TOKEN }}
