@@ -26,10 +26,14 @@ project:
     LOD: Logarithm of the Odds
   funding: 
     statement: Funding for this program is provided by the North Carolina School of Science and Mathematics, the University of North Carolina General Administration, and the General Assembly for the State of North Carolina.
-  exports:
-  - format: pdf
-    template: arxiv_nips
-    article: article.md
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - Atr03
+        - terradesert
+        - jupyter
+        - sklearn1
+        - sklearn2
 site:
   template: article-theme
-  title: An Analysis on Genomic Correlation for Gallstone Susceptibility
