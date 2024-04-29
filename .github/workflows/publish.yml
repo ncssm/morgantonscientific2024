@@ -1,6 +1,6 @@
 name: curvenote
 on:
-  pull_request:
+  pull_request_target:
     branches: [main]
 permissions:
   contents: read
@@ -15,8 +15,9 @@ jobs:
       preview-label: paper
       submit-label: false
       venue: ncssm-mor
-      kind: Original Research Paper
+      kind: original
       path: papers/*
+      ref: ${{ github.event.pull_request.head.sha }}
     secrets:
       CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
       GITHUB: ${{ secrets.GITHUB_TOKEN }}
