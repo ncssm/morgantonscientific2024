@@ -69,7 +69,7 @@ The observed phenotypic data were classified and recorded in a database. Frequen
 
 > If you choose to do any analysis in Jupyter Notebooks, include them as supporting materials. You can also include any data using a link to the data file directly.
 
-Our overall approach provides a practical and educational framework to engage in scientific research, allowing for the exploration of genetic variation through direct observation and analysis, fostering a deeper understanding of genetic principles, data-science and application to real-world contexts. We used Jupyter, NumPy and Pandas for the analysis [@jupyter; @numpy; @pandas]; the statistical analysis was completed with SciPy [@scipy].
+Our overall approach provides a practical and educational framework to engage in scientific research, allowing for the exploration of genetic variation through direct observation and analysis, fostering a deeper understanding of genetic principles, data-science and application to real-world contexts. We used NumPy and Pandas for the analysis [@numpy; @pandas]; the statistical analysis was completed with SciPy [@scipy].
 
 > The paragraph above references citation keys in our BibTeX file: [](./references.bib).
 
