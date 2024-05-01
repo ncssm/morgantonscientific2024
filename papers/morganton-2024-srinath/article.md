@@ -80,10 +80,10 @@ As evidenced by the lack of large red spots and a clean line, this data is clean
 
 ### Exploratory Data Analysis
 
-After cleaning our data set and ensuring quality control, we then began exploratory data analysis. The first step was using the R/ggplot2 library to explore trends within the phenotypic data. We used a correlation heat map to identify correlations between phenotypes and the manifestation of gallstones. Correlation heat maps are a visual representation of the coefficient of determination between various factors, or the r-squared value in a color-coded matrix. A value with an absolute value of 1 has a very strong correlation, either positive or negative. A value closer to 0 has less correlation and is more random. A positive number correlates to a positive correlation, meaning as the x-value increases, so does the y-value. A negative number correlates to a negative correlation, meaning as the x-value increases, the y-value decreases. This is shown below in @correlogram.
+After cleaning our data set and ensuring quality control, we then began exploratory data analysis. The first step was using the R/ggplot2 library to explore trends within the phenotypic data. We used a correlation heat map to identify correlations between phenotypes and the manifestation of gallstones. Correlation heat maps are a visual representation of the coefficient of determination between various factors, or the r-squared value in a color-coded matrix. A value with an absolute value of 1 has a very strong correlation, either positive or negative. A value closer to 0 has less correlation and is more random. A positive number correlates to a positive correlation, meaning as the x-value increases, so does the y-value. A negative number correlates to a negative correlation, meaning as the x-value increases, the y-value decreases. This is shown below in @fig-correlogram.
 
-```{figure} images/image05.png
-:name: correlogram
+```{figure} #correlogram
+:name: fig-correlogram
 :width: 500px
 :align: center
 

@@ -12,6 +12,7 @@ project:
   banner: ./images/banner.png
   authors:
     - name: Sanjita Srinath
+      orcid: 0009-0007-6673-9229
       affiliations: 
         - institution: North Carolina School of Science and Mathematics
           address: 901 Burkemont Ave
@@ -21,6 +22,30 @@ project:
           postal_code: 28655
           phone: 828-347-9100
       email: srinath24s@ncssm.edu
+      roles:
+        - Conceptualization
+        - Data curation
+        - Formal analysis
+        - Investigation
+        - Project Administration
+        - Software
+        - Validation
+        - Visualization
+        - writing
+        - editing
+  editors:
+    - name: Taylor Gibson
+      orcid: 0009-0003-8299-5733
+      affiliations: 
+        - institution: North Carolina School of Science and Mathematics
+          address: 901 Burkemont Ave
+          city: Morganton
+          region: North Carolina
+          country: United States
+          postal_code: 28655
+          phone: 919-416-2735
+      roles:
+        - editing
   abbreviations:
     QTL: Quantitative Trait Loci
     LOD: Logarithm of the Odds
