@@ -44,10 +44,6 @@ project:
     - rule: doi-exists
       severity: ignore
       keys:
-        - Atr03
-        - terradesert
-        - jupyter
-        - sklearn1
-        - sklearn2
+        - 'JMLR:v15:srivastava14a'
 site:
   template: article-theme
