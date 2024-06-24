@@ -1,0 +1,45 @@
+version: 1
+project:
+  id: morganton-2024-kulla-tang
+  title:  "Assessing the Impact of Water, Algae, Alcohol, and Oil-Based Inks on the Biodegradability of Cellulose in Filter Paper"
+  keywords: 
+    - Cellulose biodegradation
+    - Ink sustainability
+    - Enzyme activity
+  subject: Chemistry
+  venue:
+    title: The Morganton Scientific
+  banner: ./images/banner.png
+  authors:
+    - name: Prerana Kulla
+      email: kulla25p@ncssm.edu
+      affiliations: 
+        - institution: North Carolina School of Science and Mathematics
+          address: 901 Burkemont Ave
+          city: Morganton
+          region: North Carolina
+          country: United States
+          postal_code: 28655
+          phone: 828-347-9100
+    - name: Sophia Solomon
+      email: tang25s@ncssm.edu
+      affiliations: 
+        - institution: North Carolina School of Science and Mathematics
+          address: 901 Burkemont Ave
+          city: Morganton
+          region: North Carolina
+          country: United States
+          postal_code: 28655
+          phone: 828-347-9100
+  abbreviations:
+    NCSSM: North Carolina School of Science and Mathematics
+    VOC: Volatile organic compounds
+  funding: 
+    statement: Funding for this program is provided by the North Carolina School of Science and Mathematics, the University of North Carolina General Administration, and the General Assembly for the State of North Carolina.
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - JMLR:v15:srivastava14a
+site:
+  template: article-theme
