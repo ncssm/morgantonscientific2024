@@ -1,0 +1,47 @@
+version: 1
+project:
+  id: morganton-2024-gududuru
+  title: "A Novel Approach to Inhibit MAP2K1 Overexpression Present in Melorheostosis Utilizing Moringa oleifera Extracts"
+  keywords: 
+    - Melorheostosis
+    - Moringa oleifera
+    - MEK1 inhibition
+  subject: Chemistry
+  venue:
+    title: The Morganton Scientific
+  banner: ./images/banner.png
+  authors:
+    - name: Ashmith Gududuru
+      email: gududuru24a@ncssm.edu
+      affiliations: 
+        - institution: North Carolina School of Science and Mathematics
+          address: 901 Burkemont Ave
+          city: Morganton
+          region: North Carolina
+          country: United States
+          postal_code: 28655
+          phone: 828-347-9100
+      roles:
+        - Conceptualization
+        - Data curation
+        - Formal analysis
+        - Investigation
+        - Project Administration
+        - Software
+        - Validation
+        - Visualization
+        - writing
+        - editing
+  abbreviations:
+    NCSSM: North Carolina School of Science and Mathematics
+    CCK: Choleocystokinin
+    SKs: Sulfakinins
+  funding: 
+    statement: Funding for this program is provided by the North Carolina School of Science and Mathematics, the University of North Carolina General Administration, and the General Assembly for the State of North Carolina.
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - JMLR:v15:srivastava14a
+site:
+  template: article-theme
