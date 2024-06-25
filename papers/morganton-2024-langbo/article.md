@@ -7,7 +7,7 @@ abstract: |
 Air ambulance services are an essential part of emergency medical response, playing a crucial role in quickly transporting seriously ill or injured patients to medical emergency locations. This essay seeks to offer a thorough insight into air ambulance services by examining their definition, significance in trauma care, and the complex economic and personal financial factors linked to these life-saving interventions.
 
 ## What Are Air Ambulances?
-```{figure} images/Figure1.jpg
+```{figure} images/figure01.png
 :label: Figure_1
 
 This figure displays a version of an air ambulance maintained by MedCenter Air.
@@ -61,14 +61,14 @@ The market concentration by notably few firms and the lack of insurance incentiv
 
 Addressing the pricing and billing challenges is crucial for making air ambulance services more economically sustainable. You might expect a standard supply and demand curve as in many industries (@Figure_2), though Goldbeck and Mahoney [@goldbeck] represent the actual vertical demand curve in the air ambulance industry (@Figure_3).
 
-```{figure} images/Figure2.jpg
+```{figure} images/figure02.png
 :label: Figure_2
 
 This figure displays an ideal supply and demand curve for the air ambulance market [@goldbeck]. As the supply of air ambulances increases, the price should, in theory, decrease
 with more ambulances.
 ```
 
-```{figure} images/Figure3.jpg
+```{figure} images/figure03.jpeg
 :label: Figure_3
 
 This figure displays the actual supply and demand curve for the air ambulance market [@goldbeck]. As the supply of air ambulances increases, the price remains unaffected as the demand is not dependent on the number of air ambulance services. Please note this is a simplification of the actual market conditions
@@ -86,7 +86,7 @@ Examining the broader healthcare system, @ltd_air_2023 points out that trauma, s
 
 The financial burden on patients and insurance providers is a critical aspect of the economic impact. The high median cost of 36,000 dollars per trip poses a significant financial challenge for individuals requiring air ambulance services. Moreover, the concentration of market power among a relatively small number of firms exacerbates the financial strain on consumers.
 
-```{figure} images/Figure4.jpg
+```{figure} images/figure04.png
 :label: Figure_4
 
 This figure displays the air ambulance service territories throughout North Carolina in 2023. 
