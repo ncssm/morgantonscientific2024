@@ -1,0 +1,36 @@
+version: 1
+project:
+  id: morganton-2024-zhang
+  title:  "Effect of Sulfakinin/Cholecystokinin-type Peptide ArSK/CCK1 on Satiety and Energy Metabolism of Asterias vulgaris"
+  keywords: 
+     - Sulfakinin
+     - Asterias vulgaris
+     - Cholecystokinin
+  subject: Biology
+  venue:
+    title: The Morganton Scientific
+  banner: ./images/banner.png
+  authors:
+    - name:  Caroline Zhang
+      email: zhang24c1@ncssm.edu
+      affiliations: 
+      - institution: North Carolina School of Science and Mathematics
+        address: 901 Burkemont Ave
+        city: Morganton
+        region: North Carolina
+        country: United States
+        postal_code: 28655
+        phone: 828-347-9100
+  abbreviations:
+    NCSSM: North Carolina School of Science and Mathematics
+    CCK: Choleocystokinin
+    SKs: Sulfakinins
+  funding: 
+    statement: Funding for this program is provided by the North Carolina School of Science and Mathematics, the University of North Carolina General Administration, and the General Assembly for the State of North Carolina.
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - JMLR:v15:srivastava14a
+site:
+  template: article-theme
