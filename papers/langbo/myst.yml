@@ -1,8 +1,11 @@
 version: 1
+extends:
+  - ../morganton2024.yml
 project:
   id: morganton-2024-langbo
-  title: "An Investigation of the Economics Behind Air Emergency Medical Services"
-  keywords: 
+  title: An Investigation of the Economics Behind Air Emergency Medical Services
+  description: The use of air ambulance services, a critical component of emergency medical response, has become increasingly prevalent in transporting critically ill or injured patients to medical emergency sites. This essay aims to provide a comprehensive understanding of air ambulance services by exploring their definition, importance in trauma care, and the economic and personal finance aspects associated with these life-saving interventions.
+  keywords:
     - EMS
     - Helicopter
     - Barriers to Entry
@@ -10,30 +13,11 @@ project:
     - Supply
     - Competition
   subject: Literature Review
-  venue:
-    title: The Morganton Scientific
-  banner: ./images/banner.png
   authors:
     - name: Noah Langbo
       email: langbo24n@ncssm.edu
-      affiliations: 
-        - institution: North Carolina School of Science and Mathematics
-          address: 1219 Broad St
-          city: Durham
-          region: North Carolina
-          country: United States
-          postal_code: 27705
-          phone: 919-416-2600
+      affiliation: ncssm
       roles:
         - writing
   abbreviations:
     NCSSM: North Carolina School of Science and Mathematics
-  funding: 
-    statement: Funding for this program is provided by the North Carolina School of Science and Mathematics, the University of North Carolina General Administration, and the General Assembly for the State of North Carolina.
-  error_rules:
-    - rule: doi-exists
-      severity: ignore
-      keys:
-        - JMLR:v15:srivastava14a
-site:
-  template: article-theme

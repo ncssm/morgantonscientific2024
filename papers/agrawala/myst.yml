@@ -1,26 +1,19 @@
 version: 1
+extends:
+  - ../morganton2024.yml
 project:
   id: morganton-2024-agrawala
-  title: "Analyzing Carbon-13 NMR Spectra to Predict Chemical Shifts of Carbon Compounds using Machine Learning Algorithms"
-  keywords: 
+  title: Analyzing Carbon-13 NMR Spectra to Predict Chemical Shifts of Carbon Compounds using Machine Learning Algorithms
+  description: Nuclear Magnetic Resonance is a fundamental tool in chemistry for elucidating the molecular structure of unidentified substances. The evaluation of 13C NMR spectra can be challenging due to the numerous factors that affect the peaks and their locations.
+  keywords:
     - Nuclear Magnetic Resonance
     - Carbon-13
     - Machine Learning
   subject: Physics
-  venue:
-    title: The Morganton Scientific
-  banner: ./images/banner.png
   authors:
     - name: Pranav Agrawala
       email: agrawala24a@ncssm.edu
-      affiliations: 
-        - institution: North Carolina School of Science and Mathematics
-          address: 901 Burkemont Ave
-          city: Morganton
-          region: North Carolina
-          country: United States
-          postal_code: 28655
-          phone: 828-347-9100
+      affiliation: ncssm
       roles:
         - Conceptualization
         - Data curation
@@ -33,17 +26,7 @@ project:
         - writing
         - editing
   abbreviations:
-    NCSSM: North Carolina School of Science and Mathematics
     NMR: Nuclear Magnetic Resonance
     MAE: Mean Absolute Error
     GCN: Graph Convolutional Network
     MLP: Multi-Layer Perceptron
-  funding: 
-    statement: Funding for this program is provided by the North Carolina School of Science and Mathematics, the University of North Carolina General Administration, and the General Assembly for the State of North Carolina.
-  error_rules:
-    - rule: doi-exists
-      severity: ignore
-      keys:
-        - 'JMLR:v15:srivastava14a'
-site:
-  template: article-theme

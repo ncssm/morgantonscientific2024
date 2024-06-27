@@ -1,40 +1,22 @@
 version: 1
+extends:
+  - ../morganton2024.yml
 project:
   id: morganton-2024-jonnavithula
   title: Inhibition of TORC1 Pathway in Saccharomyces Cerevisiae to Induce Autophagy Using Graphene Oxide
+  description: Alzheimer’s Disease is a neurodegenerative brain disorder that affects close to six million people in the US alone. The disease is characterized by amyloid beta plaque buildup in the brain which limits proper communication and connection between neurons.
   keywords:
     - Alzheimer's Disease
     - Autophagy
     - Amyloid Beta Plaque
     - mTOR Pathways
   subject: Biology
-  venue: 
-    title: The Morganton Scientific
   authors:
     - name: Sesha Jonnavithula
-      email: jonnavithula24s@ncssm.edu    
-      affiliations: 
-        - institution: North Carolina School of Science and Mathematics
-          address: 901 Burkemont Ave
-          city: Morganton
-          region: North Carolina
-          country: United States
-          postal_code: 28655
-          phone: 828-347-9100
-        
+      email: jonnavithula24s@ncssm.edu
+      affiliation: ncssm
   abbreviations:
-    NCSSM: North Carolina School of Science and Mathematics
     AD: Alzheimer's Disease
     GO: Graphene Oxide
     WHO: World Health Organization
     LB: Luria Broth
-  funding: 
-    statement: Funding for this program is provided by the North Carolina School of Science and Mathematics, the University of North Carolina General Administration, and the General Assembly for the State of North Carolina.
-  error_rules:
-    - rule: doi-exists
-      severity: ignore
-      keys:
-        - JMLR:v15:srivastava14a
-site:
-  template: article-theme
-  title: "Inhibition of TORC1 Pathway in Saccharomyces Cerevisiae to Induce Autophagy Using Graphene Oxide"

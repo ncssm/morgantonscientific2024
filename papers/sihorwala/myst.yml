@@ -1,30 +1,22 @@
 version: 1
+extends:
+  - ../morganton2024.yml
 project:
   id: morganton-2024-sihorwala
-  title: "AQINet: A multimodal deep convolutional neural network to predict Air Quality Index via satellite imagery and meteorological data"
-  keywords: 
+  title: 'AQINet: A multimodal deep convolutional neural network to predict Air Quality Index via satellite imagery and meteorological data'
+  description: Air pollution is a pressing ecological issue with significant impacts on both public health and the environment. Poor air quality is a major contributor to respiratory diseases and is linked to millions of deaths annually, but many countries cannot afford air monitoring equipment. This lack of data makes it difficult to assess the health and environmental risks resulting from pollutant exposure.
+  keywords:
     - keyword1
     - keyword2
     - keyword3
   subject: Computational Science
-  venue:
-    title: The Morganton Scientific
-  banner: ./images/banner.png
   authors:
     - name: Zoaib Sihorwala
       email: sihorwala24z@ncssm.edu
-      affiliations: 
-        - institution: North Carolina School of Science and Mathematics
-          address: 901 Burkemont Ave
-          city: Morganton
-          region: North Carolina
-          country: United States
-          postal_code: 28655
-          phone: 828-347-9100
+      affiliation: ncssm
       roles:
         - writing
   abbreviations:
-    NCSSM: North Carolina School of Science and Mathematics
     EPA: Environmental Protection Agency
     AQI: Air Quality Index
     UNICEF: United Nations International Children's Emergency Fund
@@ -34,14 +26,5 @@ project:
     API: Application programming interface
     ReLU: Rectified Linear Unit
     FFT: Fast Fourier Transform
-    RGB: Red Green Blue 
+    RGB: Red Green Blue
     MAE: Mean Absolute Error
-  funding: 
-    statement: Funding for this program is provided by the North Carolina School of Science and Mathematics, the University of North Carolina General Administration, and the General Assembly for the State of North Carolina.
-  error_rules:
-    - rule: doi-exists
-      severity: ignore
-      keys:
-        - JMLR:v15:srivastava14a
-site:
-  template: article-theme

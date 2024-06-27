@@ -1,6 +1,5 @@
 ---
 title: A Novel Approach to Inhibit MAP2K1 Overexpression Present in Melorheostosis Utilizing Moringa oleifera Extracts
-
 abstract: |
   Melorheostosis is a rare bone disorder characterized by a mutation in the MAP2K1 gene in the MAPK signaling pathways, overproducing MEK1 protein, resulting in abnormal, flowing bone growth. Treatment and diagnosis options are limited; therefore, this experiment explores the use of Moringa oleifera, a promising natural product, as a potential treatment option for melorheostosis. In this experiment M. oleifera seed and leaf extract was fed to *Drosophila melanogaster* and DSOR1 protein (an ortholog of the MEK1 protein) was extracted from samples and examined through a western blot. However, experimental results were inconclusive due to technical issues in the western blotting process. This paper serves as a novel method to study MEK1 protein expression in humans through the use of *D. melanogaster* and natural product chemistry. Future research possibilities include rerunning the western blot and optimizing the conditions, testing the synergistic effects of leaf and seed extracts, and investigating moringin (an isothiocyanate found in M. oleifera leaves). 
 ---

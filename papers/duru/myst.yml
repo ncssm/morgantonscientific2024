@@ -1,37 +1,19 @@
 version: 1
+extends:
+  - ../morganton2024.yml
 project:
   id: morganton-2024-duru
-  title:  "Using Bromelain Application to Inhibit the Spread of the Tobacco Mosaic Virus and Promote Tissue Regeneration in Red Bell Pepper Plants"
-  keywords: 
+  title: Using Bromelain Application to Inhibit the Spread of the Tobacco Mosaic Virus and Promote Tissue Regeneration in Red Bell Pepper Plants
+  description: Plant viruses are a prevalent issue as they pose detrimental effects on agriculture, the food economy, and numerous individuals worldwide. One major effect of these viruses is tissue necrosis (breakdown of tissue), which plays a significant role in the decrease of crop yields. This study focused on the Tobacco Mosaic Virus, which infects over 350 plant species, causes necrotic symptoms, and exhibits a high transmission rate.
+  keywords:
     - Bromelain
     - PAL
     - Bell pepper plants
   subject: Biology
-  venue:
-    title: The Morganton Scientific
-  banner: ./images/banner.png
   authors:
-    - name:  Chisom Duru 
+    - name: Chisom Duru
       email: duru24c@ncssm.edu
-      affiliations: 
-        - institution: North Carolina School of Science and Mathematics
-          address: 901 Burkemont Ave
-          city: Morganton
-          region: North Carolina
-          country: United States
-          postal_code: 28655
-          phone: 828-347-9100
+      affiliation: ncssm
   abbreviations:
-    NCSSM: North Carolina School of Science and Mathematics
     TMV: Tobacco Mosaic Virus
     PAL: phenylalanine ammonia lyase
-  funding: 
-    statement: Funding for this program is provided by the North Carolina School of Science and Mathematics, the University of North Carolina General Administration, and the General Assembly for the State of North Carolina.
-  error_rules:
-    - rule: doi-exists
-      severity: ignore
-      keys:
-        - JMLR:v15:srivastava14a
-site:
-  template: article-theme
-  title: "Using Bromelain Application to Inhibit the Spread of the Tobacco Mosaic Virus and Promote Tissue Regeneration in Red Bell Pepper Plants"

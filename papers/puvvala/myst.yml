@@ -1,29 +1,21 @@
 version: 1
+extends:
+  - ../morganton2024.yml
 project:
   id: morganton-2024-puvvala
-  title: "Predicting Network Traffic Flow with a Multi-Layer Short-Term Memory Model"
-  keywords: 
+  title: Predicting Network Traffic Flow with a Multi-Layer Short-Term Memory Model
+  description: In the dynamic realm of digital communication, managing and optimizing network traffic is critical. Efficient forecasting of network traffic volumes, crucial for maintaining network quality, poses significant challenges due to the volatile nature of data flow. This study introduces a novel approach using Long Short-Term Memory networks to enhance forecasting accuracy.
+  keywords:
     - Time-Series
     - LSTM
     - Single-layer
     - Multi-layer
   subject: Engineering
-  venue:
-    title: The Morganton Scientific
-  banner: ./images/banner.png
   authors:
     - name: Taran Puvvala
       email: puvvala24t@ncssm.edu
-      affiliations: 
-        - institution: North Carolina School of Science and Mathematics
-          address: 1219 Broad St.
-          city: Durham
-          region: North Carolina
-          country: United States
-          postal_code: 27705
-          phone: 919-416-2600
+      affiliation: ncssm
   abbreviations:
-    NCSSM: North Carolina School of Science and Mathematics
     LSTM: Long short-term memory
     TSF: Time Series Forecasting
     V2X: Vehicle-to-Everything
@@ -31,12 +23,3 @@ project:
     MSE: Mean Squared Error
     MAE: Mean Absolute Error
     RMSE: Root Mean Squared Error
-  funding: 
-    statement: Funding for this program is provided by the North Carolina School of Science and Mathematics, the University of North Carolina General Administration, and the General Assembly for the State of North Carolina.
-  error_rules:
-    - rule: doi-exists
-      severity: ignore
-      keys:
-        - JMLR:v15:srivastava14a
-site:
-  template: article-theme
