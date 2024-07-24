@@ -6,9 +6,9 @@ project:
   title: 'AQINet: A multimodal deep convolutional neural network to predict Air Quality Index via satellite imagery and meteorological data'
   description: Air pollution is a pressing ecological issue with significant impacts on both public health and the environment. Poor air quality is a major contributor to respiratory diseases and is linked to millions of deaths annually, but many countries cannot afford air monitoring equipment. This lack of data makes it difficult to assess the health and environmental risks resulting from pollutant exposure.
   keywords:
-    - keyword1
-    - keyword2
-    - keyword3
+    - Air Quality Index (AQI)
+    - Satellite Imagery
+    - Deep Learning
   subject: Computational Science
   authors:
     - name: Zoaib Sihorwala
