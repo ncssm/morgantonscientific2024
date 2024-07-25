@@ -24,7 +24,7 @@ In this study, we used the R/qtl package in R [@broman2003r], developed by Brome
 
 ### Data collection
 
-Data for this project was obtained from the Mouse Phenome Database at the Jackson Laboratory, a grant-funded resource that provides integrated genomic and phenomic data on behavioral, morphological, and physiological characteristics in mice. [@10.1007/s00335-023-10014-3] The Jackson Lab is an independent non-profit biomedical research lab that primarily conducts genomic research with mice.
+Data for this project was obtained from the Mouse Phenome Database at the Jackson Laboratory, a grant-funded resource that provides integrated genomic and phenomic data on behavioral, morphological, and physiological characteristics in mice [@10.1007/s00335-023-10014-3]. The Jackson Lab is an independent non-profit biomedical research lab that primarily conducts genomic research with mice.
 
 ```{figure} images/f2_breeding_chart.svg
 :name: breeding_chart
