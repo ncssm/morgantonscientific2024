@@ -9,7 +9,7 @@ The gallbladder is an organ in the upper right portion of the abdomen, directly 
 
 While some traits are very clearly and individually linked to a single particular spot on the genome, most traits are inherently complex and thus, there are multiple locations on the genome that can influence the manifestation of that trait. Gallstone disease and susceptibility fall under that umbrella of traits. Gallstone susceptibility is a multifaceted trait influenced by both genetic and environmental factors and represents a significant health concern with considerable variability in its occurrence among individuals. The development of gallstones is associated with a complex interplay of genetic predisposition and lifestyle factors such as diet and obesity [@noauthor_gallstones_2021].
 
-Quantitative Trait Loci (QTL) analyses can be used to find multiple locations on the genome with high logarithm of the odds (LOD) scores which can indicate a possible correlation or causation between the two. QTL analysis uses statistical methods to link quantitative phenotypic traits to genetic markers on the chromosome to try to genetically explain extremely complex phenotypes. [@myles2008quantitative].
+Quantitative Trait Loci (QTL) analyses can be used to find multiple locations on the genome with high logarithm of the odds (LOD) scores which can indicate a possible correlation or causation between the two. QTL analysis uses statistical methods to link quantitative phenotypic traits to genetic markers on the chromosome to try to genetically explain extremely complex phenotypes [@myles2008quantitative].
 
 We seek to uncover QTLs that may harbor candidate genes influencing gallstone formation.
 
