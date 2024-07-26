@@ -1,0 +1,31 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: morganton-2024-template
+  title: "Morgan's Marvelous Mutations: Unraveling the Mysteries of Genetic Variation"
+  subtitle: Analysis of genetic variation of Drosophila melanogaster across three environments
+  description: A template paper that explains how to format and submit to The Morganton Scientific. Content focuses on a hypothetical study of fruit flies and analyzing phenotypic variation across environments; analysis is done in an attached Jupyter Notebook.
+  keywords:
+    - template
+    - genetics
+  authors:
+    - name: Rowan Cockett
+      orcid: 0000-0002-7859-8394
+      email: rowan@curvenote.com
+      affiliation: Curvenote Inc.
+    - name: Thomas Hunt Morgan
+      affiliation: Johns Hopkins University
+  license: CC-BY-4.0
+  open_access: true
+  subject: Original Research
+  venue: The Morganton Scientific
+  banner: banner.png
+  abbreviations:
+    CRISPR: Clustered regularly interspaced short palindromic repeats
+    DOI: Digital object identifier
+  exports:
+    - format: typst
+      article: article.md
+      template: https://github.com/myst-templates/scipy.git
+site:
+  template: article-theme
