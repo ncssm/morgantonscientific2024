@@ -1,0 +1,17 @@
+name: Curvenote Submission from Main
+on:
+  push:
+    branches: ['main']
+permissions:
+  contents: write
+jobs:
+  submit:
+    uses: curvenote/actions/.github/workflows/submit.yml@v1
+    with:
+      id-pattern-regex: '^morganton-2024-(?:[a-zA-Z0-9-_]{3,15})$'
+      venue: ncssm-mor
+      kind: original
+      path: papers/*
+    secrets:
+      CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
+      GITHUB: ${{ secrets.GITHUB_TOKEN }}
