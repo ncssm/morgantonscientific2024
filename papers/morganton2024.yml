@@ -25,9 +25,13 @@ project:
       phone: 828-347-9100
       ror: https://ror.org/03zbydc22
   exports:
-    - format: typst
+    - id: typst-export
+      format: typst
       template: ../../templates/ncssm
       article: article.md
       output: article.pdf
+  downloads:
+    - title: Download PDF
+      id: typst-export
 site:
   template: article-theme
