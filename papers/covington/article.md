@@ -10,13 +10,19 @@ abstract: |
 
 An optical image of the NGC 1952 taken by the Hubble Space Telescope in 2005. The central glow highlights the pulsar.
 ```
+
++++ { "part": "first_page" }
 ## Age Determination of NGC 1952 and PSR B0531+21 Using Radio Observations
 
 Supernova remnants (SNRs) have been astronomical phenomena of interest since ancient times due to their brilliance in the visible spectrum. SNR events are evidenced in the artifacts of early civilizations. Records are believed to have begun in 185 C.E. Common type II supernovae occur due to the discontinuation of fusion in massive stars’ iron or nickel cores. However, in type III1 supernovae, the atomic nuclei of oxygen-neon-magnesium cores capture electrons. Both processes drive stellar collapse because of imbalances between gravity and pressure. Protons and electrons meld, forming a small, dense star supported by neutron degeneracy (more massive stars continue to collapse into black holes). Finally, this process produces a shock wave that expands inward and outward–expelling an array of gas and dust in the interstellar medium. Pulsars (PSRs), a form of a neutron star, rotate at extremely high velocities. Although they conserve much of their angular momentum, their periods gradually decline. Pulsars are detectable in gamma, x-ray, ultraviolet, or radio wavelengths due to the emission of synchrotron radiation from their magnetic poles.
 
 A PSR’s characteristic age can be deduced from its period and derivative. The characteristic age assumes significant reductions in the initial period and an absence of magnetic field decay. Its accuracy indicates the relevance of these characteristics. The actual age, meanwhile, uses a pulsar’s braking magnitude and reveals whether multiple sources affect its spin-down.
 
-The Crab Nebula, a remnant of a supernova and a type III plerion located within the constellation Taurus, and its associated pulsar are the subjects of this research. Age determinations assist historians in connecting SNRs to Chinese records of “guest stars.” However, we focus on the Crab because of sufficient evidence from the year it was first observed, proving the accuracy of our results. Additionally, ages confirm pulsar associations: A pulsar may gradually drift from a remnant’s center [@condon_essential_2017]. We compare two methods in their effective determination of the Crab SNR’s age: The first utilizes the remnant’s expansion, and the second relies on the spin properties of its pulsar.
+The Crab Nebula, a remnant of a supernova and a type III plerion located within the constellation Taurus, and its associated pulsar are the subjects of this research. Age determinations assist historians in connecting SNRs to Chinese records of “guest stars.” However, we focus on the Crab because of sufficient evidence from the year it was first observed, proving the accuracy of our results. Additionally, ages confirm pulsar associations: A pulsar may gradually drift from a remnant’s center [@condon_essential_2017]. We compare
+
++++
+
+two methods in their effective determination of the Crab SNR’s age: The first utilizes the remnant’s expansion, and the second relies on the spin properties of its pulsar.
 
 ## Methods
 
@@ -77,7 +83,7 @@ We calculated the characteristic age, denoted $\tau_c$, using Equation @Equation
 \tau_c = \frac{P}{2\dot{P}}
 ```
 
-With Equation @Equation_3, we then estimated the true age, $\tau$. Unlike the characteristic age, the true age of a pulsar incorporates 𝑛, the magnetic braking index or the loss of rotational energy due to ionized material traveling along the pulsar's magnetic field lines, and $P_0$, the initial period upon the formation of the pulsar. 
+With Equation @Equation_3, we then estimated the true age, $\tau$. Unlike the characteristic age, the true age of a pulsar incorporates $n$, the magnetic braking index or the loss of rotational energy due to ionized material traveling along the pulsar's magnetic field lines, and $P_0$, the initial period upon the formation of the pulsar. 
 
 ```{math}
 :label: Equation_3
@@ -89,7 +95,7 @@ With Equation @Equation_3, we then estimated the true age, $\tau$. Unlike the ch
 P = kP^{2-n}
 ```
 
-A differentiated and rearranged form of Equation @Equation_4, which describes the relationship between the period, the constant, 𝑘, and the braking index, allowed us to solve for $n$: $n=2-\frac{P \ddot{P}{P}} {\dot{P}{P^2}}$. The derivations of $\ddot{P}{P}$ and $P_0$ require complex models actively being explored. The process is further complicated by numerous glitches or random and disruptive spin-up events experienced by the Crab PSR. However, recent studies have given estimates for $P_0$ [@zhang_evolution_2022], as well as [@malov_second_2017] between glitches: values which we use here.
+A differentiated and rearranged form of Equation @Equation_4, which describes the relationship between the period, the constant, $k$, and the braking index, allowed us to solve for $n$: $n=2-\frac{P \ddot{P}{P}} {\dot{P}{P^2}}$. The derivations of $\ddot{P}{P}$ and $P_0$ require complex models actively being explored. The process is further complicated by numerous glitches or random and disruptive spin-up events experienced by the Crab PSR. However, recent studies have given estimates for $P_0$ [@zhang_evolution_2022], as well as [@malov_second_2017] between glitches: values which we use here.
 
 ## Results
 ### SNR Rate of Expression
@@ -120,7 +126,7 @@ A pulsar dataset (compiled by Green Bank into a Prepfold Plot) depicting a regul
 
 #### Characteristic Age
 
-We determined the characteristic age to be $4.0395 \cdot 10^{10}$ seconds or $1280.9$ years. For millisecond pulsars, the characteristic age can be many times greater than the actual age, which indicates that $P_0$ is similar to $P$. Although the approximation above is reasonable, the actual age demonstrates higher accuracy. Using Equation @Equation_4 and a period second derivative of $–2.7 \cdot 10^{–24}$, $n$ was found to be $2.52$. The braking index is slightly less than the expected value of 3 if the spin-down were due solely to magnetic dipole radiation; therefore, other factors contribute to the pulsar’s loss of rotational velocity [@kou_rotational_2015].
+We determined the characteristic age to be $4.0395 \cdot 10^{10}$ seconds or $1280.9$ years. For millisecond pulsars, the characteristic age can be many times greater than the actual age, which indicates that $P_0$ is similar to $P$. Although the approximation above is reasonable, the actual age demonstrates higher accuracy. Using Equation @Equation_4 and a period second derivative of $-2.7 \cdot 10^{-24}$, $n$ was found to be $2.52$. The braking index is slightly less than the expected value of 3 if the spin-down were due solely to magnetic dipole radiation; therefore, other factors contribute to the pulsar’s loss of rotational velocity [@kou_rotational_2015].
 
 #### True Age
 
