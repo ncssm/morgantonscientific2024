@@ -23,5 +23,11 @@ project:
       country: United States
       postal_code: 28655
       phone: 828-347-9100
+      ror: https://ror.org/03zbydc22
+  exports:
+    - format: typst
+      template: ../../templates/ncssm
+      article: article.md
+      output: article.pdf
 site:
   template: article-theme
