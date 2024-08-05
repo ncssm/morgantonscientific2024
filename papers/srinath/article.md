@@ -4,6 +4,8 @@ abstract: |
   Gallstones, typically benign and harmless hardened deposits of digestive fluids, present in the gallbladder can cause severe painful complications if left untreated and can lead to removal surgery. [@noauthor_gallstones_2021] Quantitative Trait Loci (QTL) analysis can be used to find potential genetic links through the analysis of logarithm of the odds (LOD) scores which can indicate a possible connection between those loci on the mouse chromosome and phenotypic presentation of a trait [@myles2008quantitative] linked to gallstone susceptibility such as weight, presence, severity and liver weight. Analyses were performed using the R/QTL package on a cohort of mice, in an intercross breed and fed a high-fat diet [@lyons1]. Analyses were compared between augmented data sets (to possibly prevent overfitting) and an analysis run on a non-augmented data set.
 ---
 
++++ { "part": "first_page" }
+
 ## Introduction
 The gallbladder is an organ in the upper right portion of the abdomen, directly below the liver, that releases bile, a fluid that the liver produces, that digests fats. Bile is a solution of cholesterol, bilirubin, and bile salts [@clevelandclinic_gallbladder:_nodate]. There are two primary categories of gallstones, cholesterol and pigment stones. Cholesterol stones form due to a lack of balance of cholesterol, bilirubin, and bile salts in the bile. It can form due to excess bilirubin or cholesterol or a lack of bile salts. The cause of pigment stones is currently unknown, but they tend to develop in patients already suffering from cirrhosis, biliary tract infections, and hereditary blood disorders such as sickle cell anemia [@noauthor_gallstones_2021].
 
@@ -14,6 +16,8 @@ Quantitative Trait Loci (QTL) analyses can be used to find multiple locations on
 We seek to uncover QTLs that may harbor candidate genes influencing gallstone formation.
 
 The findings from this data-driven approach not only contribute to our understanding of the genetic determinants of gallstone susceptibility but also pave the way for potential insights into personalized preventive strategies and therapeutic interventions.
+
++++
 
 ## Data set(s)
 
@@ -283,13 +287,9 @@ Our findings illuminated several key loci with high logarithm of the odds (LOD) 
 
 Our study contributes to the fundamental understanding of gallstone susceptibility and lays the foundation for personalized preventive strategies and therapeutic interventions. The identified QTLs harbor candidate genes that may play pivotal roles in gallstone formation, paving the way for further targeted research.
 
-+++{"part":"data_availability"}
-The data for this work was obtained from https://phenome.jax.org/projects/Lyons1.
-+++
+## Acknowledgments
 
-+++{"part":"acknowledgments"}
 Special thanks are extended to Mr. Robert Gotwals of the North Carolina School of Science and Math and the Mouse Phenotype Database at the Jackson Laboratory.
-+++
 
 +++{"part":"author_contributions"}
 This paper is solely the work of the author. All references are included in the bibliography and are cited appropriately.
@@ -297,4 +297,8 @@ This paper is solely the work of the author. All references are included in the 
 
 +++{"part":"competing-interest"}
 The authors declare that they have no competing interests.
++++
+
++++{"part":"data_availability"}
+The data for this work was obtained from https://phenome.jax.org/projects/Lyons1.
 +++
