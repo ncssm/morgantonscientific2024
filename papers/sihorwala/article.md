@@ -3,8 +3,21 @@ title: "AQINet: A multimodal deep convolutional neural network to predict Air Qu
 abstract: |
   Air pollution is a pressing ecological issue with significant impacts on both public health and the environment. Poor air quality is a major contributor to respiratory diseases and is linked to millions of deaths annually, but many countries cannot afford air monitoring equipment. This lack of data makes it difficult to assess the health and environmental risks resulting from pollutant exposure. To address this problem, we present a multimodal model to inexpensively predict air quality levels in densely populated areas. Our research leverages both satellite imagery and meteorological data to create accurate air quality predictions. We sourced urban and suburban satellite imagery from the National Agriculture Imaging Program, meteorological data from Open-Meteo, and air quality data from OpenWeatherMap, to create a dataset named AQISet. AQISet is publicly available and free to download. The goal was for the model to implicitly learn spatial features in each image, such as roads, greenery, and bodies of water, and then combine this info with meteorological data to predict AQI. Using multiple computer vision techniques, the model was able to predict AQI with a mean absolute error of 16 AQI and a classification accuracy of 77% based on the EPA’s AQI standards categories. Our results establish a baseline for AQI prediction from satellite imagery and are a vast improvement over state-of-the-art pre-trained general computer vision models.
 ---
+
++++ { "part": "first_page" }
+
 ## Introduction
 The process of respiration is essential for all living organisms, as it enables them to produce energy. Consequently, access to clean air is fundamental for life to be sustained. Exposure to air pollution can lead to a multitude of health issues such as respiratory ailments, cardiovascular diseases, and in severe cases, death [@noauthor_trends_2017].
+
+Despite concerted global efforts to mitigate air pollution in recent decades, a startling statistic from 2019 shows that 99% of the world’s population resides in areas that fail to meet the World Health Organization’s air quality standards [@noauthor_ambient_nodate]. This alarming situation has led to over 4 million deaths annually, predominantly in low and middle-income countries, which account for 89% of these fatalities linked to ambient air pollution. 
+
+Air Quality Index (AQI), a metric of air pollution developed by the United States Environmental Protection Agency (EPA), quantifies air pollution levels [@noauthor_aqi_nodate]. AQI is computed based on measurements of several pollutants, chiefly particulate matter (PM{sub}`2.5` and PM{sub}`10`), nitrogen dioxide (NO{sub}`2`), ozone (O{sub}`3`), carbon monoxide (CO), and sulfur dioxide (SO{sub}`2`). These pollutants arise from a variety of sources such as man-made emissions from fossil fuels, as well as natural sources like smoke from volcanoes and wildfires. 
+
+Ground-based air quality monitors are typically used to measure the concentration of each pollutant over a certain time frame. These devices vary in size, from small household units to medium and large static monitors strategically positioned around cities, offering continuous data from selected urban locations. These types of sensors utilize active measurement techniques, which use physical or chemical methods to analyze the air in a given area automatically. These sensors can be extremely expensive to manufacture and operate, and costs can range from 15,000 dollars to 40,000 dollars per sensor [@noauthor_frm/fem_2019]. This
+
++++
+
+high cost poses a onsiderable challenge to lesser developed regions of the world where governments may struggle to afford many air quality monitors to monitor urban and suburban areas adequately. According to the United Nations International Children’s Emergency Fund (UNICEF), only about 6% and 24% of children live within 50km of an air quality monitor in Africa and South America respectively [@noauthor_silent_2019]. The lack of AQI data in developing countries can lead to unnecessary pollutant exposure and affect regulatory processes, as authorities struggle to assess pollution levels and take appropriate actions.
 
 :::{table} Health Risks of Air Pollutants
 :label: table_1
@@ -17,12 +30,6 @@ The process of respiration is essential for all living organisms, as it enables 
 | CO    |Headache, nausea, rapid breathing, dizziness, and confusion.|
 | SO{sub}`2`   |Irritation of eyes, nose, throat, and airways, and aggravation of asthma and emphysema.|
 :::
-
-Despite concerted global efforts to mitigate air pollution in recent decades, a startling statistic from 2019 shows that 99% of the world’s population resides in areas that fail to meet the World Health Organization’s air quality standards [@noauthor_ambient_nodate]. This alarming situation has led to over 4 million deaths annually, predominantly in low and middle-income countries, which account for 89% of these fatalities linked to ambient air pollution. 
-
-Air Quality Index (AQI), a metric of air pollution developed by the United States Environmental Protection Agency (EPA), quantifies air pollution levels [@noauthor_aqi_nodate]. AQI is computed based on measurements of several pollutants, chiefly particulate matter (PM{sub}`2.5` and PM{sub}`10`), nitrogen dioxide (NO{sub}`2`), ozone (O{sub}`3`), carbon monoxide (CO), and sulfur dioxide (SO{sub}`2`). These pollutants arise from a variety of sources such as man-made emissions from fossil fuels, as well as natural sources like smoke from volcanoes and wildfires. 
-
-Ground-based air quality monitors are typically used to measure the concentration of each pollutant over a certain time frame. These devices vary in size, from small household units to medium and large static monitors strategically positioned around cities, offering continuous data from selected urban locations. These types of sensors utilize active measurement techniques, which use physical or chemical methods to analyze the air in a given area automatically. These sensors can be extremely expensive to manufacture and operate, and costs can range from 15,000 dollars to 40,000 dollars per sensor [@noauthor_frm/fem_2019]. This high cost poses a onsiderable challenge to lesser developed regions of the world where governments may struggle to afford many air quality monitors to monitor urban and suburban areas adequately. According to the United Nations International Children’s Emergency Fund (UNICEF), only about 6% and 24% of children live within 50km of an air quality monitor in Africa and South America respectively [@noauthor_silent_2019]. The lack of AQI data in developing countries can lead to unnecessary pollutant exposure and affect regulatory processes, as authorities struggle to assess pollution levels and take appropriate actions.
 
 ## Previous Work
 Other scientists have conducted experiments using satellite data to predict air pollution levels in certain areas. Scheibenreif et al. used imagery and remote sensing measurements from the European Space Agency’s Sentinel satellites and a two-stream deep neural network to predict levels of nitrogen dioxide, one of the major pollutants in computing the AQI [@scheibenreif_toward_2022]. Rowley et. al built off of this approach and used the Sentinel satellites along with NO2 ground monitoring stations to predict levels of NO{sub}`2`, O{sub}`3`, and PM{sub}`10` [@rowley_predicting_2022]. They also included a fully connected neural network that utilized additional data such as population and altitude. This project aims to provide a more general prediction of air quality by directly predicting the AQI rather than the pollutants that comprise it.
@@ -109,7 +116,7 @@ The first method is using upsampling to even out the AQI distribution by taking 
 The second method we use is a weighted loss function to punish the model more for incorrect guesses on infrequent AQI. We started with a standard Mean Squared Error (MSE) loss, the square of the difference between the model’s prediction and the ground truth AQI. Then, we computed some weight for each AQI, _W_, to scale our MSE loss by. _W_ is defined as follows:
 
 ```{math}
-:label: _W{sub}`i`_
+:label: Wi
 W_i = (N(μ,σ^2) * F(A_i))^{-1}
 ```
 

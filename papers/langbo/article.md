@@ -3,15 +3,13 @@ title: An Investigation of the Economics Behind Air Emergency Medical Services
 abstract: |
   The use of air ambulance services, a critical component of emergency medical response, has become increasingly prevalent in transporting critically ill or injured patients to medical emergency sites. This essay aims to provide a comprehensive understanding of air ambulance services by exploring their definition, importance in trauma care, and the economic and personal finance aspects associated with these life-saving interventions. The significance of air ambulance services in trauma care is underscored by empirical research, highlighting the advantages of high speed, rapid transportation, and access to specialized medical teams for trauma patients. Furthermore, the laws and current economic conditions of air ambulance services is examined through cost comparisons and analyses of factors influencing cost effectiveness. The findings shed light on the balance between the economic viability of air ambulance services and their life-saving potential. Any approach aimed at addressing these economic issues must consider the many perspectives: economic, medical, political, and more.
 ---
+
++++ { "part": "first_page" }
+
 ## Introduction
 Air ambulance services are an essential part of emergency medical response, playing a crucial role in quickly transporting seriously ill or injured patients to medical emergency locations. This essay seeks to offer a thorough insight into air ambulance services by examining their definition, significance in trauma care, and the complex economic and personal financial factors linked to these life-saving interventions.
 
 ## What Are Air Ambulances?
-```{figure} images/figure01.png
-:label: Figure_1
-
-This figure displays a version of an air ambulance maintained by MedCenter Air.
-```
 
 To comprehend the significance of air ambulance services, it’s essential to define them. According to @gupta_what_2023, an air ambulance [@Figure_1] is a specialized medical transport service that utilizes aircraft for the rapid transportation of critically ill or injured patients to medical emergency sites.
 
@@ -20,7 +18,17 @@ This definition encapsulates the essence of a service designed for swift respons
 ## Importance of Air Ambulance Services in Trauma Care
 The importance of air ambulance services in trauma care is underscored by research, such as the study conducted by @galvagno_association_2012. This research explores the association between helicopter and ground emergency medical services, delving into the impact of helicopter transport on traumatically injured patients. Covering 61,909 patients transported by helicopter and 161,566 by ground, the study reveals that helicopter transport is associated with improved survival to hospital discharge for major trauma patients in Level I or Level II trauma centers [@galvagno_association_2012].
 
-However, the significance of this impact is debated due to limited resources and acknowledged study limitations. The study highlights the complexities of assessing the effectiveness of air ambulance services, including the lack of regression model testing and the inability to account for treatment assignment differences. Despite these challenges, the research indicates statistically significant greater odds of survival for patients transported by helicopter, especially for those in Level I trauma centers.
+However, the significance of this impact is debated due to limited resources and acknowledged study limitations. The study highlights the complexities of assessing the effectiveness of air ambulance services, including the lack of regression model testing and the inability to account for treatment
+
++++
+
+```{figure} images/figure01.png
+:label: Figure_1
+
+This figure displays a version of an air ambulance maintained by MedCenter Air.
+```
+
+assignment differences. Despite these challenges, the research indicates statistically significant greater odds of survival for patients transported by helicopter, especially for those in Level I trauma centers.
 
 The advantages of air ambulance services, including high speed, rapid transportation, and access to specialized medical teams, align with the critical needs of trauma patients. The swiftness of response and the potential for improved survival rates make air ambulances a crucial component in the continuum of trauma care. As we explore the economic and personal finance aspects of air ambulance services, it is crucial to bear in mind the life-saving impact these services can have on individuals facing critical medical emergencies.
 

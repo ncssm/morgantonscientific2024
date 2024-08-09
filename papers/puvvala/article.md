@@ -3,6 +3,9 @@ title: Predicting Network Traffic Flow with a Multi-Layer Short-Term Memory Mode
 abstract: |
   In the dynamic realm of digital communication, managing and optimizing network traffic is critical. Efficient forecasting of network traffic volumes, crucial for maintaining network quality, poses significant challenges due to the volatile nature of data flow. This study introduces a novel approach using Long Short-Term Memory (LSTM) networks to enhance forecasting accuracy. We compare a multi-layer LSTM, designed to capture complex dependencies within the data, with a traditional single-layer LSTM, offering insights into their respective capabilities. The multi-layer LSTM’s architecture allows it to excel in understanding deeper temporal patterns, making it a significant advancement over simpler models. By employing these two architectures, our research aims to improve predictive performance in network traffic forecasting, crucial for optimized network management and planning. The findings reveal that the multi-layer model significantly outperforms its single-layer counterpart, demonstrating the potential of sophisticated LSTM networks in practical applications.
 ---
+
++++ { "part": "first_page" }
+
 ## Introduction
 The forecasting of network traffic volume stands as a cornerstone in the management and optimization of modern data networks [@nihale_network_2020]. In a digital landscape where data consumption and transmission have surged exponentially, the ability to predict network traffic is paramount. This importance stems from the increasing reliance on online services and cloud computing, with networks serving as the backbone of digital communication [@khodadadi_traffic_2021]. Accurate forecasting enables service providers to maintain network efficiency and quality of service, ensuring that the burgeoning demands of users are met effectively and reliably.
 
@@ -10,7 +13,11 @@ Network traffic volume forecasting is a complex endeavor, often formulated as a 
 
 The challenge of forecasting network traffic is amplified by the high dimensionality and large data volumes typical of modern networks. Factors such as emergency situations, varying user demands, and technological changes add layers of complexity to the forecasting process. Accurate predictions require models capable of understanding and adapting to these multifaceted and often nonlinear dynamics [@jiang_graph_2022]. Technologies such as Vehicle-to-Everything (V2X) communications enhance traffic prediction by providing real-time data from vehicles and infrastructure, which can be integrated to forecast traffic flows more accurately [@zhang_network_2021]. Similarly, advancements in artificial intelligence (AI) facilitate the analysis of complex data patterns, enabling more precise predictions of network traffic behaviors. These technologies contribute significantly to the mapping and predictive capabilities necessary for dynamic network management [@zhang_network_2021].
 
-Despite its critical importance, network traffic forecasting remains a challenging task. Current methods often struggle to accurately capture the intricate and volatile patterns of network data. Traditional models may not fully account for the nonlinear temporal dependencies and are generally ill-equipped to handle sudden fluctuations in traffic. This limitation can lead to suboptimal network resource allocation and management, potentially impacting service quality and user experience [@liu_scientometric_2021] [@mozo_forecasting_2018].
+Despite its critical importance, network traffic forecasting remains a challenging task. Current methods often struggle to accurately capture the intricate and volatile patterns of network data. Traditional models may not fully account for the nonlinear temporal dependencies and are generally ill-equipped to
+
++++
+
+handle sudden fluctuations in traffic. This limitation can lead to suboptimal network resource allocation and management, potentially impacting service quality and user experience [@liu_scientometric_2021] [@mozo_forecasting_2018].
 
 Given these complexities, this study aims to explore the application of Long Short-Term Memory (LSTM) networks in predicting network traffic volumes.
 
@@ -28,7 +35,7 @@ In the realm of time-series forecasting, the meticulous design and implementatio
 The foundational step in our analysis was the meticulous preprocessing of a comprehensive traffic dataset. Our database used is a publicly available computer traffic set from Stanford University [@sabatti_computer_nodate]. This set comprises of 8 different servers with over 500,000 rows of information regarding them. The data provides daily traffic metrics, was initially subjected to a thorough cleansing process. Key to this phase was the conversion of date entries into a standardized chronological format, facilitating temporal analyses. Focus was particularly directed towards the total traffic variable, representing daily traffic volumes, which was extracted for subsequent processing Recognizing the sensitivity of neural networks to data scale, we normalized these traffic volume figures using min-max scaling:
 
 ```{math}
-:label: min-max scaling
+:label: min-max-scaling
 x_{norm} = \frac{x-x_{min}}{x_{max}-x_{min}}
 ```
 
@@ -105,7 +112,7 @@ MSE = \frac{1}{n}\sum_{i=1}^n(y_i-\overset{*}{y_i})^2
 RMSE = \sqrt{\frac{1}{n}\sum_{i=1}^n(y_i-\overset{*}{y_i})^2}
 ```
 ```{math}
-:label: Overall Actual Accuracy
+:label: Overall-Actual-Accuracy
 {\textrm{Overall Actual Accuracy}} = (1-MAE)*100
 ```
 Building upon our established framework for performance evaluation, the outcomes of our LSTM models were thoroughly examined through Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and Overall Actual Accuracy. These metrics collectively offered a comprehensive view of the models’ predictive capabilies. 
