@@ -67,7 +67,7 @@ The rates of dissolved oxygen consumption were measured at basal rate, H{sub}`2`
 
 Across all organisms of varying diameters, the basal rate measurements yielded the highest rate of decrease for dissolved oxygen overall with the strongest negative values (see @basal_rate_measurements). This illustrates the highest amount of dissolved oxygen consumption and a reflected energy production in the organism. The dissolved oxygen consumption rate measurements for the control (H{sub}`2`O injection) fell near the measurements for the basal rate as well, tending to hold a rate slightly lower than the basal rate measurements. Dissolved oxygen consumption rates for the experimental peptide injection group showed much less change in dissolved oxygen levels, however, with  rate values approaching or greater than zero. This suggests a general decrease in the amount of dissolved oxygen consumed by A. vulgaris under exposure to ArSK/CCK1. 
 
-```{figure} images/figure_4.png
+```{figure} images/figure_04.png
 :label: basal_rate_measurements
 
 Dissolved oxygen consumption rates for all tested organism diameters with data from basal rate, control, and experimental groups.
@@ -75,7 +75,7 @@ Dissolved oxygen consumption rates for all tested organism diameters with data f
 
 The average change in dissolved oxygen consumption was taken across all organisms and averaged to achieve a value for comparison. To establish the validity of the H{sub}`2`O injection as a control, the average change in dissolved oxygen consumption for the basal rate and H{sub}`2`O injection measurements were compared. A one-tailed T-test was performed for the two means to determine if the average dissolved oxygen consumption rate for the basal rates (-0.0008728646154 mg/L/s) was significantly greater than the average rate for the H{sub}`2`O injection (-0.0008281736364 mg/L/s), as shown in @average_dissolved_oxygen. A p-value less than 0.05 was acquired, thus demonstrating that the difference between the two values was not significant and factors such as the injection process or addition of fluid into the coelomic cavity did not have a significant impact on the results obtained.
 
-```{figure} images/figure_5.png
+```{figure} images/figure_05.png
 :label: average_dissolved_oxygen
 
 Comparison of average basal rate across all included trials and dissolved oxygen consumption from the control groups exhibited no statistically significant difference (p-value of 0.411203 on a 95% confidence interval). The injection process was then determined to not yield a significant effect on dissolved oxygen consumption rates. Basal rate measurements can be compared with results from the experimental groups.
@@ -83,7 +83,7 @@ Comparison of average basal rate across all included trials and dissolved oxygen
 
 The quantitative effects of exposure of ArSK/CCK1 on the dissolved oxygen consumption of A. vulgaris was observed by averaging the rate values from all organisms and trials considered (see @average_rate_values). This average (-0.0002312072727 mg/L/s) was compared to the average dissolved oxygen consumption rate for the basal rate group with a one-tailed t-test. A p-value greater than 0.05 was achieved, indicating that the average rate for the ArSK/CCK1 injection group was significantly lower than that of the basal rate. 
 
-```{figure} images/figure_6.png
+```{figure} images/figure_06.png
 :label: average_rate_values
 
 Comparison of average basal rate across all included trials and dissolved oxygen consumption from the experimental groups displayed a statistically significant difference (p-value of 0.004776 on 95% confidence interval), indicating that exposure to ArSK/CCK1 yielded a significant difference in the amounts of dissolved oxygen consumed.
