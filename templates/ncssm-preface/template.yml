@@ -5,7 +5,9 @@ description: North Carolina School of Science and Mathematics Table of Contents 
 template: template.typ
 files:
   - template.typ
+  - papers.yml
   - logo.png
+  - dna.png
 authors:
   - name: Rowan Cockett
     github: rowanc1
@@ -23,6 +25,9 @@ tags:
   - paper
 thumbnail: ./thumbnail.png
 github: https://github.com/curvenote-templates/ncssm
+parts:
+  - id: forward
+    description: The forward to the journal volume
 doc:
   - id: biblio
     required: true
