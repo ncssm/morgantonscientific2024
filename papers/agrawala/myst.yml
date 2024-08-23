@@ -3,7 +3,7 @@ extends:
   - ../morganton2024.yml
 project:
   doi: 10.62329/VRHV7044
-  id: morganton-2024-agrawala-franklin
+  id: morganton-2024-agrawala
   title: Analyzing Carbon-13 NMR Spectra to Predict Chemical Shifts of Carbon Compounds using Machine Learning Algorithms
   description: Nuclear Magnetic Resonance is a fundamental tool in chemistry for elucidating the molecular structure of unidentified substances. The evaluation of 13C NMR spectra can be challenging due to the numerous factors that affect the peaks and their locations.
   keywords:
