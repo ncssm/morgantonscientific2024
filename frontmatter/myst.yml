@@ -1,5 +1,6 @@
 version: 1
 project:
+  id: morganton-2024-vol-1
   title: Morganton Scientific - Volume 1
   authors:
     - name: Bianca Chan
