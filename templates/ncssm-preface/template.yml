@@ -28,6 +28,7 @@ github: https://github.com/curvenote-templates/ncssm
 parts:
   - id: forward
     description: The forward to the journal volume
+    required: true
 doc:
   - id: biblio
     required: true

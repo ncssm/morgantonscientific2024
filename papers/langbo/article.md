@@ -4,6 +4,8 @@ abstract: |
   The use of air ambulance services, a critical component of emergency medical response, has become increasingly prevalent in transporting critically ill or injured patients to medical emergency sites. This essay aims to provide a comprehensive understanding of air ambulance services by exploring their definition, importance in trauma care, and the economic and personal finance aspects associated with these life-saving interventions. The significance of air ambulance services in trauma care is underscored by empirical research, highlighting the advantages of high speed, rapid transportation, and access to specialized medical teams for trauma patients. Furthermore, the laws and current economic conditions of air ambulance services is examined through cost comparisons and analyses of factors influencing cost effectiveness. The findings shed light on the balance between the economic viability of air ambulance services and their life-saving potential. Any approach aimed at addressing these economic issues must consider the many perspectives: economic, medical, political, and more.
 ---
 
++++ { "part": "first_page" }
+
 ## Introduction
 Air ambulance services are an essential part of emergency medical response, playing a crucial role in quickly transporting seriously ill or injured patients to medical emergency locations. This essay seeks to offer a thorough insight into air ambulance services by examining their definition, significance in trauma care, and the complex economic and personal financial factors linked to these life-saving interventions.
 
@@ -16,7 +18,9 @@ This definition encapsulates the essence of a service designed for swift respons
 ## Importance of Air Ambulance Services in Trauma Care
 The importance of air ambulance services in trauma care is underscored by research, such as the study conducted by @galvagno_association_2012. This research explores the association between helicopter and ground emergency medical services, delving into the impact of helicopter transport on traumatically injured patients. Covering 61,909 patients transported by helicopter and 161,566 by ground, the study reveals that helicopter transport is associated with improved survival to hospital discharge for major trauma patients in Level I or Level II trauma centers [@galvagno_association_2012].
 
-However, the significance of this impact is debated due to limited resources and acknowledged study limitations. The study highlights the complexities of assessing the effectiveness of air ambulance services, including the lack of regression model testing and the inability to account for treatment {raw:typst}`#set page(columns: 2, margin: (x: 1.5cm, y: 2cm),);`assignment differences. Despite these challenges, the research indicates statistically significant greater odds of survival for patients transported by helicopter, especially for those in Level I trauma centers.
++++
+
+However, the significance of this impact is debated due to limited resources and acknowledged study limitations. The study highlights the complexities of assessing the effectiveness of air ambulance services, including the lack of regression model testing and the inability to account for treatment assignment differences. Despite these challenges, the research indicates statistically significant greater odds of survival for patients transported by helicopter, especially for those in Level I trauma centers.
 
 ```{figure} images/figure01.png
 :label: Figure_1

@@ -12,10 +12,10 @@ Alzheimer’s Disease (AD) is a neurodegenerative brain disorder that is also cl
 
 With no cure, the global prevalence of AD is growing with an estimated 60% of the annual 10 million new cases of dementia coming from the disease [@who_2023]. Furthermore, the causes behind plaque buildup and the direct relationship between beta amyloid plaques and dementia is still unclear. As the WHO recognizes AD and dementia as public health priority, initiatives to understand and cure AD are increasingly vital to human health [@who_2023]. 
 
++++
+
 ### Autophagy, mTOR Pathways, and Amyloid Beta Plaque Decomposition 
 The mammalian mTOR is a serine/threonine kinase that is present in two complexes, mTORC1 and mTORC2. mTOR stands for mammalian Target Of Rapamycin, referencing a drug which is known to inhibit the pathway [@10.1186/s13578-020-00396-1]. 
-
-+++
 
 ```{figure} images/figure01.png
 :label: mTORC1_pathway

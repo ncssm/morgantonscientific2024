@@ -18,8 +18,8 @@ project:
       roles:
         - writing
   biblio:
-    first_page: 45
-    last_page: 49
+    first_page: 46
+    last_page: 50
   abbreviations:
     EPA: Environmental Protection Agency
     AQI: Air Quality Index

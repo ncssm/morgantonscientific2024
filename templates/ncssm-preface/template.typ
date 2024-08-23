@@ -29,8 +29,9 @@
   NORTH CAROLINA SCHOOL OF SCIENCE AND MATHEMATICS]
 ]
 
-#pagebreak()
+#counter(page).update(0)
 
+#pagebreak()
 
 #set page(
   paper: "us-letter",
