@@ -34,8 +34,10 @@ project:
       roles:
         - editing
   biblio:
-    first_page: 51
-    last_page: 59
+    first_page: 56
+    last_page: 63
   abbreviations:
     QTL: Quantitative Trait Loci
     LOD: Logarithm of the Odds
+  settings:
+    output_stderr: remove

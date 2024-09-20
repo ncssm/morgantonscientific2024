@@ -28,8 +28,8 @@ project:
         - writing
         - editing
   biblio:
-    first_page: 10
-    last_page: 13
+    first_page: 15
+    last_page: 18
   abbreviations:
     SNRs: Supernova remnants
     PSRs: Pulsars

@@ -17,8 +17,8 @@ project:
       email: puvvala24t@ncssm.edu
       affiliation: ncssm
   biblio:
-    first_page: 39
-    last_page: 45
+    first_page: 44
+    last_page: 50
   abbreviations:
     LSTM: Long short-term memory
     TSF: Time Series Forecasting

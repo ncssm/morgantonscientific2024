@@ -21,7 +21,7 @@ project:
       roles:
         - writing
   biblio:
-    first_page: 35
-    last_page: 38
+    first_page: 40
+    last_page: 43
   abbreviations:
     NCSSM: North Carolina School of Science and Mathematics

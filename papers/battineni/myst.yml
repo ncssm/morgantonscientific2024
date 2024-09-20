@@ -41,7 +41,7 @@ project:
       keys:
         - JMLR:v15:srivastava14a
   biblio:
-    first_page: 66
-    last_page: 72
+    first_page: 10
+    last_page: 14
 site:
   template: article-theme
