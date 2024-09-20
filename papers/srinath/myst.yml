@@ -35,7 +35,7 @@ project:
         - editing
   biblio:
     first_page: 56
-    last_page: 64
+    last_page: 63
   abbreviations:
     QTL: Quantitative Trait Loci
     LOD: Logarithm of the Odds
