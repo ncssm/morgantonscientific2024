@@ -1,77 +1,46 @@
 version: 1
+extends:
+  - ../morganton2024.yml
 project:
   id: morganton-2024-battineni
-  title:  "Decoding the Diet of a Local Owl Population: Investigating Prey Composition through DNA Extraction and Analysis from Incisors and Molars of Small Mammals and Rodents"
-  keywords: 
+  doi: 10.62329/EKRD3854
+  title: Decoding the Diet of a Local Owl Population
+  subtitle: Investigating Prey Composition through DNA Extraction and Analysis from Incisors and Molars of Small Mammals and Rodents
+  keywords:
     - Owl Pellet Analysis
     - DNA Barcoding
     - Rodent Species Identification
   subject: Biology
-  venue:
-    title: The Morganton Scientific
-  banner: ./images/banner.png
   authors:
     - name: Sudiksha Battineni
-      affiliations: 
-        - institution: North Carolina School of Science and Mathematics
-          address: 901 Burkemont Ave
-          city: Morganton
-          region: North Carolina
-          country: United States
-          postal_code: 28655
-          phone: 828-347-9100
+      affiliation: ncssm
       email: battineni24s@ncssm.edu
     - name: Sophia Solomon
-      affiliations: 
-        - institution: North Carolina School of Science and Mathematics
-          address: 901 Burkemont Ave
-          city: Morganton
-          region: North Carolina
-          country: United States
-          postal_code: 28655
-          phone: 828-347-9100
+      affiliation: ncssm
       email: solomon24s@ncssm.edu
     - name: Meghan Leonard
-      affiliations: 
-        - institution: North Carolina School of Science and Mathematics
-          address: 901 Burkemont Ave
-          city: Morganton
-          region: North Carolina
-          country: United States
-          postal_code: 28655
-          phone: 828-347-9100
+      affiliation: ncssm
       email: leonard25m@ncssm.edu
     - name: Lauren Yu
-      affiliations: 
-        - institution: North Carolina School of Science and Mathematics
-          address: 901 Burkemont Ave
-          city: Morganton
-          region: North Carolina
-          country: United States
-          postal_code: 28655
-          phone: 828-347-9100
-      email: yu25l@ncssm.edu    
+      affiliation: ncssm
+      email: yu25l@ncssm.edu
     - name: Emily Brissenden
-      affiliations: 
-        - institution: North Carolina School of Science and Mathematics
-          address: 901 Burkemont Ave
-          city: Morganton
-          region: North Carolina
-          country: United States
-          postal_code: 28655
-          phone: 828-347-9100
-      email: brissenden25e@ncssm.edu    
+      affiliation: ncssm
+      email: brissenden25e@ncssm.edu
   abbreviations:
     NCSSM: North Carolina School of Science and Mathematics
     PCR: Polymerase Chain Reaction
     DNA: Deoxyribonucleic acid
     BLAST: Basic Local Alignment Search Tool
-  funding: 
+  funding:
     statement: Funding for this program is provided by the North Carolina School of Science and Mathematics, the University of North Carolina General Administration, and the General Assembly for the State of North Carolina.
   error_rules:
     - rule: doi-exists
       severity: ignore
       keys:
         - JMLR:v15:srivastava14a
+  biblio:
+    first_page: 66
+    last_page: 72
 site:
   template: article-theme
