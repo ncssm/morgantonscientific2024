@@ -39,3 +39,5 @@ project:
   abbreviations:
     QTL: Quantitative Trait Loci
     LOD: Logarithm of the Odds
+  settings:
+    output_stderr: remove
