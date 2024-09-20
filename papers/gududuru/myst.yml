@@ -27,8 +27,8 @@ project:
         - writing
         - editing
   biblio:
-    first_page: 19
-    last_page: 24
+    first_page: 24
+    last_page: 29
   abbreviations:
     CCK: Choleocystokinin
     SKs: Sulfakinins
