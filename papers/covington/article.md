@@ -31,7 +31,7 @@ The Green Bank 20-m radio telescope with an L-band receiver (1.15-1.73 GHz) was 
 :label: table_1
 :align: center
 |Run| Object | Coordinates and Apparent Magnitude | Time of Observation (UT) | Date
-| :--- | :----: | :----: | :----: | :----: | 
+| :--- | :----: | :----: | :----: | :----: |
 |1|NGC 1952|RA 05:35:54.67 DEC 22:01:49.1 Mag. 8.4 |17:51:05| 2023-06-27
 |2|NGC 1952|RA 05:35:54.67 DEC 22:01:49.1 Mag. 8.4 |21:02:37| 2023-07-01
 |3|B0531+21|RA 05:34:31.9 DEC 22:00:52.1 Mag. 16.5|19:00:04| 2023-07-24
@@ -45,7 +45,7 @@ We produced two spectrum scans of the Crab SNR to estimate its expansion rate. T
 
 ```{math}
 :label: Equation_1
-\Delta v = \frac{\Delta v}{v}\times C 
+\Delta v = \frac{\Delta v}{v}\times C
 ```
 
 #### Telescope Settings: PSR Data
@@ -56,7 +56,7 @@ We conducted three scans of PSR B0531+21, as described in @table_2, to determine
 :label: table_2
 :align: center
 |Setting| NGC 1952 | B0 531+21
-| :--- | :----: | :----: | 
+| :--- | :----: | :----: |
 |Receiver Mode|Highres|Lowres|
 |Central Frequency (MHz)|1420 |1395|
 |Filter|HI|HI|
@@ -71,14 +71,14 @@ We conducted three scans of PSR B0531+21, as described in @table_2, to determine
 
 ### Characteristic and True Ages
 
-We calculated the characteristic age, denoted $\tau_c$, using Equation @Equation_2, which required only the period and period derivative. 
+We calculated the characteristic age, denoted $\tau_c$, using Equation @Equation_2, which required only the period and period derivative.
 
 ```{math}
 :label: Equation_2
 \tau_c = \frac{P}{2\dot{P}}
 ```
 
-With Equation @Equation_3, we then estimated the true age, $\tau$. Unlike the characteristic age, the true age of a pulsar incorporates $n$, the magnetic braking index or the loss of rotational energy due to ionized material traveling along the pulsar's magnetic field lines, and $P_0$, the initial period upon the formation of the pulsar. 
+With Equation @Equation_3, we then estimated the true age, $\tau$. Unlike the characteristic age, the true age of a pulsar incorporates $n$, the magnetic braking index or the loss of rotational energy due to ionized material traveling along the pulsar's magnetic field lines, and $P_0$, the initial period upon the formation of the pulsar.
 
 ```{math}
 :label: Equation_3
@@ -93,6 +93,7 @@ P = kP^{2-n}
 A differentiated and rearranged form of Equation @Equation_4, which describes the relationship between the period, the constant, $k$, and the braking index, allowed us to solve for $n$: $n=2-\frac{P \ddot{P}{P}} {\dot{P}{P^2}}$. The derivations of $\ddot{P}{P}$ and $P_0$ require complex models actively being explored. The process is further complicated by numerous glitches or random and disruptive spin-up events experienced by the Crab PSR. However, recent studies have given estimates for $P_0$ [@zhang_evolution_2022], as well as [@malov_second_2017] between glitches: values which we use here.
 
 ## Results
+
 ### SNR Rate of Expression
 
 The Crab remnant is composed primarily of hydrogen gas. Neutral hydrogen produces the 21 cm line, which is evident as a sharp emission feature around 1420 MHz [@Figure_2]. The 21 cm undergoes slight dispersion in energy and quickly passes through the Earth's atmosphere, making it observable with little interference. The averages of the spectral features’ minima, 1420.16 MHz and 1420.67 MHz, resulted in a total expansion velocity of 108 km/s.
@@ -128,8 +129,8 @@ Utilizing Equation @Equation_3 and a value of $0.0183$ seconds for $P_0$​, the
 
 Chinese Sung Dynasty astronomers described the remnant in the Sung Shih annals, and the Japanese documented it in the texts Mei Getsuki and Ichidai, stating, “It shone like a comet and was as bright as Jupiter” [@brandt_1054_1979]. It is also evidenced in a pictographic representation of the ruins of the Anasazi’s Peñasco Blanco.
 
-
 ## Discussion and Conclusion
+
 Age determinations derived from spectrum scans of the Crab SNR's radio expansion velocity are impacted by the remnant's competing traits and the likelihood that most of the nebular ejecta does not move directly toward or away from Earth. Considering the possibility of radio frequency interference (RFI), the expansion velocity could be measured more accurately in the visible spectrum. Published high-resolution photographs taken across several decades could also account for the velocities of individual knots. However, @nugent_new_1998 notes that their optical velocity closely agreed with other published research, indicating a convergence date 76 years after the 1054 C.E. supernova. Meanwhile, @bietenholz_new_2015 determined that the Crab’s inner “synchrotron-emitting bubble,” detectable on the radio, expands faster than the outward optical filaments. They reached this conclusion and accounted for the remnant’s less prominent features by applying unique scaling techniques to high-resolution radio and optical photographs. The results of the spectrum scans presented here support the need for advanced observing techniques that capture the remnant’s asymmetrical geometries and dynamic physical properties.
 
 Meanwhile, despite undergoing glitches, pulsars' compact structures and the benefits of folded data in distinguishing recurring signals from RFI contribute to very accurate time of arrival measurements. We encounter problems considering that many young SNRs do not contain detectable pulsars – perhaps because these pulsars do not emit signals that can be discerned among the remnant’s intense radiation. However, at least 20 pairs of plerions and pulsars are known with certainty to exist. Our research conveys that pulsars provide valuable insight into the age and evolution of SNRs. In contrast to expansive nebulae and supernova ejecta, the properties of pulsars make them a very reliable tool for astronomers.

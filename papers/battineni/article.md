@@ -62,6 +62,27 @@ Promising amplicons were sent for sequencing to Eurofins Genomics. Chromatogram 
 
 In the first trial of the study, ten sequences precisely or closely aligned with the mitochondrial cytochrome b sequence of _Sigmodon hispidus_, more commonly known as the Hispid Cotton Rat. There were no other matches with the sequences in the database besides Homo sapiens and the only other result was unknown or unidentifiable, usually due to cross-contamination or lack of a strong DNA. _Sigmodon hispidus_ is considered a species of least concern, according to The International Union for Conservation of Nature. They occupy habitats of heavily grassed areas such as fields and pastures, which are common in Morganton, North Carolina. They build nests under rocks or logs and create runways and tunnels both above and underground [@copp_2011]. The basic local alignment search tool (BLAST) procedure for the first trial of the study resulted in the same species across all successfully sequenced samples.
 
+```{raw:typst}
+#let tableStyle = (
+  columns: (1.2fr, 2.7fr, 1.4fr, 2fr, 2.5fr),
+  map-cells: cell => {
+    if (cell.y == 0) {
+      return (..cell, content: strong(text(cell.content, 6.5pt)))
+    }
+    (..cell, content: text(cell.content, 6.5pt))
+  },
+  auto-vlines: false,
+  map-hlines: line => {
+    if (line.y == 0 or line.y == 1 or line.y == 10) {
+      line.stroke = gray + 1pt;
+    } else {
+      line.stroke = 0pt;
+    }
+    return line
+  },
+)
+```
+
 :::{table} Ten samples matched closely with Hispid Cotton Rat
 :label: ten_samples_data
 :align: center
@@ -81,6 +102,33 @@ In the first trial of the study, ten sequences precisely or closely aligned with
 :::
 
 After running the study a second time, the identification of a second previously unidentified species as a food source for this particular owl occurred: Microtus pinetorum. The following images are photographs of the gels that were run. As shown below, the gels containing samples 4C and 4D resulted in one strong line and one light line, respectively. The third gel containing samples 2C and 2D heeded in two very light lines. The fourth gel had one strong line and three light lines, and gels one and five did not show up under the camera and light [@gel_electrophoresis]. In the second trial of the study, only one out of the nine samples sequenced yielded sufficient base pairs to identify a match [@Sample_4C].
+
+```{raw:typst}
+#let tableStyle = (
+  columns: (1.5fr, 1fr, 1fr, 1fr, 1fr, 1fr),
+  map-cells: cell => {
+    if (cell.y == 0) {
+      return (..cell, content: strong(text(cell.content, 6.5pt)))
+    }
+    (..cell, content: text(cell.content, 7.5pt))
+  },
+  auto-vlines: false,
+  map-hlines: line => {
+    if (line.y == 0 or line.y == 1 or line.y == 19) {
+      line.stroke = gray + 1pt;
+    } else {
+      line.stroke = 0pt;
+    }
+    return line
+  },
+  fill: (column, row) => {
+    if (row == 15 or row == 16) {
+      return yellow;
+    }
+    return none;
+  }
+)
+```
 
 ```{figure} images/figure05.png
 :label: gel_electrophoresis
