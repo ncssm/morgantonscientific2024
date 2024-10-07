@@ -2,6 +2,12 @@ version: 1
 project:
   id: morganton-2024-vol-1
   title: Morganton Scientific - Volume 1
+  description: |
+    The Morganton Scientific showcases some of the most
+    interesting and complex math- and science-centered
+    research projects explored by students at NCSSM.
+    We are a public high school where talented students
+    realize their potential and find their niche.
   authors:
     - name: Bianca Chan
       affiliation: ncssm
